@@ -1,0 +1,39 @@
+.app-sider {
+  margin-right: 4px;
+
+  .ant-layout-sider-children {
+    background: var(--common-background) !important;
+    overflow-y: auto;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    .ant-menu {
+      background: var(--common-background) !important;
+    }
+  }
+
+  &--logo {
+    width: 100%;
+    padding: 12px 8px 0px;
+    text-align: center;
+
+    img {
+      height: 50px;
+    }
+  }
+
+  &--buttom {
+    margin-top: 12px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .app-sider {
+    .ant-layout-sider-zero-width-trigger {
+      top: 12px;
+      font-size: 24px;
+    }
+  }
+}

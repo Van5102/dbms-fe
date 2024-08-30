@@ -1,0 +1,52 @@
+.container-folder {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.style-list-document {
+  display: flex;
+  flex-direction: column;
+
+  table,
+  th,
+  td {
+    text-align: left;
+
+    .style-icon {
+      width: 50px;
+      height: 50px;
+    }
+
+    .style-icon:hover {
+      cursor: pointer;
+    }
+
+    .icon-document {
+      width: 10%
+    }
+
+    .name-document {
+      width: 20%;
+      text-align: left;
+    }
+
+    .user-create-document {
+      width: 10%
+    }
+
+    .action-document {
+      width: 10%
+    }
+
+    .time-upload-document {
+      width: 10%
+    }
+  }
+}
+
+.dropdown-action {
+  cursor: pointer;
+}

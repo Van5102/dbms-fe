@@ -1,0 +1,17 @@
+.app-footer  {
+    padding: 6px 24px !important;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: italic;
+    background: var(--common-background) !important;
+    border-top-left-radius: 2px;
+
+    .blue-text {
+        color: #3b47f7;
+    }
+
+    .red-text {
+        color: #ff414d;
+    }
+}
